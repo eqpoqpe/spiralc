@@ -1,5 +1,5 @@
-#ifndef _SPIRAL_INTERFACE
-#define _SPIRAL_INTERFACE
+#ifndef _SPIRALC_INTERFACE
+#define _SPIRALC_INTERFACE
 
 /* gtanm */
 char *gtanm1(int);
@@ -9,4 +9,4 @@ char *gtanm1(int);
  */
 int toint(void *);
 
-#endif /* _SPIRAL_INTERFACE */
+#endif /* _SPIRALC_INTERFACE */
