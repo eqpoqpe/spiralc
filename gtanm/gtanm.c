@@ -12,11 +12,14 @@ char letter[1][26] = { \
 static unsigned int r_val;
 static time_t _t;
 
-char *gtanm1(int dig)
+char *gtanm1(int digit)
 {
-        char *template_str = (char *) malloc(sizeof(char) * dig + 1);
+        char *temp_res_ptr = (char *) malloc(sizeof(char) * digit + 1);
+
         srand((unsigned) time(&_t));
-        for (int index = 0; index < dig; index++)
-                *(template_str + index) = letter[0][rand() % 20];
-        return template_str;
+
+        for (int index = 0; index < digit; index++)
+                *(temp_res_ptr + index) = letter[0][rand() % 20];
+
+        return temp_res_ptr;
 }
