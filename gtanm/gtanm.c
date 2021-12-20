@@ -1,3 +1,9 @@
+/**
+ * gtanm.c - spiralc
+ *
+ * Copyright (c) 2021 Ryan Martin
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
