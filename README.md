@@ -1,4 +1,4 @@
 # DESCRIPTION
-| FUNCTION             | RETURN | DESCRIPTION |
-| -------------------- | ------- | --- |
-| gtanm1(int) | return string (malloc) | N/A |
+| FUNCTION | DESCRIPTION |
+| ----- | ----------------------------------------------- |
+| gtanm | Randomly generate a string of specified length. |
